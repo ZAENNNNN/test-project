@@ -108,10 +108,15 @@ h1{
 }
 h1{
     color:aliceblue;
-    margin: top 10px;
-    padding:10px;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
 
+}
+p{
+    text-align:center;
+    color:aliceblue;
+    margin-top: 30px
 }
 .Form-Pengisian{
     background-color: gray;
@@ -119,23 +124,42 @@ h1{
     margin: auto;
     padding: auto;
     border-radius: 20px;
-    box-shadow: 0px 10px 30px 0px red;
+    box-shadow: 0px 10px 30px 0px skyblue;
 }
 .Form-Pengisian form{
-    margin: 30px;
+    margin: 20px;
     padding: 20px 0px 20px 0px;
     text-align: center;
 }
-.Form-Pengisian form .inputBox {
-    padding: 10px 0 10px 0;
-    color:black;
+.Form-Pengisian .Tombol {
+    margin-top: 10px;
 }
 .Form-Pengisian .Tombol a{
-    margin: 50px;
-    padding: 5px;
-    background-color:black;
-    width: 5px;
-    color:white;
-    box-shadow: 6px 5px 6px 0px black;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px 20px 5px 20px;
+    background-color:white;
+    width: 10px;
+    color:black;
+    border-radius: 5px 10px;
+    box-shadow: 0px 5px 6px 0px skyblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+.Form-Pengisian .Tombol a:hover{
+    box-shadow: 0px 5px 6px 0px rgb(15, 253, 66);
+
+}
+::placeholder{
+    font-style:italic;
+}
+li{
+    margin-top: 100px;
+    list-style-type: none;
+}
+li a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: red;
 }
